@@ -1,5 +1,5 @@
 
-# 📦 Parts List for Smart HVAC System 
+#  Parts List for Smart HVAC System 
 
 | Component                     | Quantity  | Description / Note                                           |
 | ----------------------------- | --------- | ------------------------------------------------------------ |
@@ -15,7 +15,7 @@
 
 ---
 
-## 📝 Optional Additions
+##  Optional Additions
 
 | Component                    | Quantity | Description / Note                                     |
 | ---------------------------- | -------- | ------------------------------------------------------ |
@@ -26,7 +26,7 @@
 
 ---
 
-## 💡 Notes
+##  Notes
 
 * LEDs simulate HVAC components for demo purposes.
 * Real appliances should be connected **only with relays**, and proper electrical isolation.
