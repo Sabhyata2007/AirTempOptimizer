@@ -1,23 +1,23 @@
 
-# 🌡️ Smart HVAC System using ESP32 
+#  Smart HVAC System using ESP32 
 
 This project is a **Smart HVAC (Heating, Ventilation, and Air Conditioning)** system built on the ESP32 platform. It automatically manages room climate based on **inside temperature/humidity**, **outside weather conditions** (via OpenWeatherMap), and **occupancy detection** (via PIR sensor). It features both **manual and automatic modes**, controlled remotely using the **Blynk IoT platform**.
 
 ---
 
-## 📦 Features
+##  Features
 
-* 🔁 **Auto Mode**: Dynamic climate control using real-time weather and sensor data.
-* 🎛️ **Manual Mode**: User control over fan, AC, heater, humidifier via Blynk app.
-* 🧠 **Occupancy-aware**: Auto shutdown when no one is in the room (via PIR).
-* ☁️ **Weather Integration**: Uses OpenWeatherMap API to determine if it's raining or windy.
-* 💾 **EEPROM Storage**: Retains user preferences after reboot.
-* 📱 **Remote Monitoring**: Inside temperature and humidity displayed on Blynk app.
-* 🪟 **Window/Vent Control**: Simulated using servo motor for ventilation logic.
+*  **Auto Mode**: Dynamic climate control using real-time weather and sensor data.
+*  **Manual Mode**: User control over fan, AC, heater, humidifier via Blynk app.
+*  **Occupancy-aware**: Auto shutdown when no one is in the room (via PIR).
+*  **Weather Integration**: Uses OpenWeatherMap API to determine if it's raining or windy.
+*  **EEPROM Storage**: Retains user preferences after reboot.
+*  **Remote Monitoring**: Inside temperature and humidity displayed on Blynk app.
+*  **Window/Vent Control**: Simulated using servo motor for ventilation logic.
 
 ---
 
-## ⚙️ Hardware Used
+##  Hardware Used
 
 | Component                     | Quantity | Notes                         |
 | ----------------------------- | -------- | ----------------------------- |
@@ -34,7 +34,7 @@ This project is a **Smart HVAC (Heating, Ventilation, and Air Conditioning)** sy
 
 ---
 
-## 📲 Blynk App Setup
+##  Blynk App Setup
 
 Use the Blynk IoT app to control and monitor the system:
 
@@ -53,7 +53,7 @@ Use the Blynk IoT app to control and monitor the system:
 
 ---
 
-## 🌐 Weather API Integration
+##  Weather API Integration
 
 Uses OpenWeatherMap API:
 
@@ -72,7 +72,7 @@ Weather logic:
 
 ---
 
-## 🧠 Logic Flow (Auto Mode)
+##  Logic Flow (Auto Mode)
 
 ```mermaid
 graph TD
@@ -90,7 +90,7 @@ I -- No --> K[Do nothing]
 
 ---
 
-## 🔧 EEPROM Settings Saved
+##  EEPROM Settings Saved
 
 * Manual mode state
 * User set temperature
@@ -98,7 +98,7 @@ I -- No --> K[Do nothing]
 
 ---
 
-## 🚀 Setup & Upload
+##  Setup & Upload
 
 ### Arduino Libraries Required:
 
@@ -118,7 +118,7 @@ I -- No --> K[Do nothing]
 
 ---
 
-## 🔄 Future Enhancements
+##  Future Enhancements
 
 * Replace simulated LEDs with actual relays + AC loads.
 * Add wind-direction sensor for more accurate vent logic.
